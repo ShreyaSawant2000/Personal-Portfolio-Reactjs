@@ -1,0 +1,58 @@
+.navbar{
+    height: 80px;
+    /* background-color:#5ae4a8; */
+    background-color: #FCEDDA;
+    /* background: linear-gradient(180deg,rgb(247, 97, 122),rgb(252, 186, 248) 60%); */
+}
+.navbar-brand{
+    font-size: 30px;
+    /* font-family:'Shizuru'; */
+    font-family: 'Abril Fatface', serif;
+    font-weight: 500;
+    color:rgb(2, 2, 6);
+   margin: 0;
+   box-shadow:0 1px 1px rgba(184, 29, 29, 0.2);
+}
+.nav-item{
+    padding-left: 30px;
+    font-size: large;
+  
+    
+    
+}
+.nav-link{
+    color:black;
+    font-weight: 600;
+    font-size: 24px;
+    /* font-family: 'Comfortaa', sans-serif; */
+    font-family: 'Abril Fatface', serif;
+}
+.nav-link hr{
+    border: none;
+    width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    background: #221ccd;
+    box-shadow: 0 2px 5px rgba(27, 1, 1, 0.2);
+    
+}
+.nav-link:hover hr{
+    transform: translateY(-2px); /* Adjust the value to control the upward transformation */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Adjust the values for the transformed box shadow */
+    
+  }
+
+ 
+  .nav-link:hover{
+    transform: translateY(-2px);
+  }
+  @media screen and (max-width: 600px) {
+    .navbar-collapse{
+        background-color: #fcf1e3;
+        width: 100%;
+        
+       
+      }
+  }
+  
+  
